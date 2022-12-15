@@ -25,7 +25,7 @@ async function mainProgram() {
   // printBanner("WITH STACK - british royals")
   // logAllPeopleInTree(createBritishSuccessionTree());
   // printBanner("WITH QUEUE - british royals")
-  // logAllPeopleInTreeWithQueue(createBritishSuccessionTree());
+  logAllPeopleInTreeWithQueue(createBritishSuccessionTree());
 
   // You'll need to add more test code for later exercises, too.
 }
