@@ -1,5 +1,4 @@
 import { createBritishSuccessionTree } from "./families/britain";
-import { createStarkTree } from "./families/stark";
 import { Person } from "./personTypes";
 import { logAllPeopleInTreeWithQueue } from "./treeLogging";
 

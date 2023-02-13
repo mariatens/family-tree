@@ -1,6 +1,4 @@
-import { createStarkTree } from "./families/stark";
 import { Person } from "./personTypes";
-import { createBritishSuccessionTree } from "./families/britain";
 
 export function logAllPeopleInTree(topPerson: Person): void {
   const workStack: Person[] = [];
@@ -17,9 +15,6 @@ export function logAllPeopleInTree(topPerson: Person): void {
       //console.log(workStack, "children");
     }
   }
-  const namesLength: number = names.length;
-  // console.log(namesLength);
-  // console.log(names);
 }
 
 //console.log(logAllPeopleInTree(createStarkTree()))
@@ -41,8 +36,6 @@ export function logAllPeopleInTreeWithQueue(topPerson: Person): string[] {
       //console.log(workQueue, "children");
     }
   }
-  const namesLength: number = names.length;
-  //console.log(namesLength);
   return names;
 }
 //console.log(logAllPeopleInTreeWithQueue(createBritishSuccessionTree()));

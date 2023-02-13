@@ -1,8 +1,6 @@
 import { createBaratheonTree } from "./families/baratheon";
 import { createBritishSuccessionTree } from "./families/britain";
-import { createLannisterTree } from "./families/lannister";
 import { createStarkTree } from "./families/stark";
-// import { logAllPeopleInTree, logAllPeopleInTreeWithQueue } from "./solutions/solution";
 import { logAllPeopleInTree, logAllPeopleInTreeWithQueue } from "./treeLogging";
 import { printBanner } from "./utils/bannerUtils";
 import { printPersonTreeAsAscii } from "./utils/toAsciiTree";

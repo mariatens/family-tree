@@ -17,7 +17,7 @@ export function printAsciiTree(asciiTree: AsciiTree): void {
   asciiTree.printTree();
 }
 
-export function demoAsciiTree() {
+export function demoAsciiTree(): void {
   const tree = new AsciiTree("root");
 
   tree.add(new AsciiTree("child1"));
